@@ -1,1 +1,1 @@
-# Stamaks
+# StaMaks
