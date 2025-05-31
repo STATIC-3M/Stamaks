@@ -51,12 +51,6 @@ height: 100px;
   .textMin{
     font-size: 10px; /* Размер шрифта */
   }
-/* 
-  .featuresExpress {
-    background: url('img/черный.jpg') no-repeat center center fixed;
-    background-size: cover;
-    padding: 250px 0;
-    } */
 
   .text-overlay {
     position: absolute;
@@ -69,7 +63,7 @@ height: 100px;
   }
 
   .rounded-containerOne {
-    width: 500px; /* Ширина контейнера */
+    width: 1000px; /* Ширина контейнера */
     height: 350px; /* Высота контейнера */
     background-color: #bfc0c0; /* Цвет фона */
     border-radius: 20px; /* Закругление углов */
@@ -78,15 +72,21 @@ height: 100px;
     text-align: left; /* Выравнивание текста по центру */
     padding: 30px 30px;
     margin: 20px;
+    display: inline-flex;
        
 }
 
 .container-image {
-  width: 160px; /* Картинка занимает всю ширину контейнера */
-  height: 160px;
+  width: 300px; /* Картинка занимает всю ширину контейнера */
+  height: 300px;
   border-radius: 10px; /* Закругление углов картинки */
-  margin-bottom: 40px; /* Отступ снизу */
-  margin-left: 280px;
+  margin-bottom: 100px; /* Отступ снизу */
+  margin-top: 40px;
+}
+.container-imagetext
+{
+  font-size: 20px;
+
 }
 .container-imageTwo {
   width: 140px; /* Картинка занимает всю ширину контейнера */
@@ -95,6 +95,8 @@ height: 100px;
   margin-bottom: 0px; /* Отступ снизу */
   margin-left: 280px;
 }
+
+
 .containerExpress{
   margin: 20px;  /* Выравнивание по вертикали */
 }
